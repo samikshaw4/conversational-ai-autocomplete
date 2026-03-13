@@ -1,0 +1,27 @@
+{
+  "name": "conversational-ai-autocomplete",
+  "version": "1.0.0",
+  "description": "Production-grade intent autocomplete / suggestion engine for conversational AI — implements the Search Autocomplete System design pattern.",
+  "main": "src/autocomplete.js",
+  "scripts": {
+    "test": "node --test tests/suggestionEngine.test.js",
+    "mock-server": "node mock-server/server.js",
+    "demo": "open demo/index.html || xdg-open demo/index.html"
+  },
+  "keywords": [
+    "autocomplete",
+    "conversational-ai",
+    "chatbot",
+    "nlp",
+    "intent-recognition",
+    "system-design",
+    "typeahead",
+    "suggestion-engine"
+  ],
+  "author": "Samiksha Waghmare",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {}
+}
